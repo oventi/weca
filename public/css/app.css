@@ -1,0 +1,109 @@
+body {
+    overflow: hidden;
+    background-image: url(/images/5820140057_ab77b35571_b.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+    height: 43px;
+    overflow: hidden;
+}
+
+.header .back {
+    display: none;
+    color: #fff;
+    font-size: 1.25em;
+    position: relative;
+    top: -1px;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    padding: 0;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+#notifications {
+    display: none;
+}
+
+.actions {
+    margin-bottom: 10px;
+}
+.actions .btn-group {
+    display: block;
+}
+.actions button {
+    width: 94%;
+    float: left;
+    display: block;
+    height: 100px;
+    padding-left: 20px;
+    margin-left: 3%;
+    border-radius: 10px;
+    margin-top: 5%;
+    background: #fff;
+    white-space: normal;
+}
+.actions button > i {
+    font-size: 4em;
+    float: left;
+    background: none;
+}
+.actions button > p {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 12px;
+    margin-left: 65px;
+    text-align: left;
+    padding: 0;
+}
+
+#about {
+    font-size: 1em;
+}
+
+.panel h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.25em;
+}
+
+.panel .panel-heading {
+    cursor: pointer;
+}
+
+.card {
+    display: none;
+    margin-top: 5%;
+    background: #fff;
+}
+
+#laws_card ul {
+    padding: 0% 5%;
+}
+
+#laws_card ul li {
+    margin: 5% 0;
+    line-height: 20px;
+}
+
+.ajaxload {
+    display: none;
+}
+
+.alert {
+    display: none;
+}
